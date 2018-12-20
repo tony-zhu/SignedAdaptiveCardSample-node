@@ -1,0 +1,22 @@
+{
+  "name": "signedadaptivecardsample",
+  "version": "1.0.0",
+  "description": "The sample program generating Actionable Message email body with signed Adaptive Card",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tony-zhu/SignedAdaptiveCardSample-node.git"
+  },
+  "author": "Tony Zhu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tony-zhu/SignedAdaptiveCardSample-node/issues"
+  },
+  "homepage": "https://github.com/tony-zhu/SignedAdaptiveCardSample-node#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.4.0"
+  }
+}
