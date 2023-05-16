@@ -38,3 +38,13 @@ var template = fs.readFileSync('signed_adaptive_template.html');
 var htmlPayload = template.toString().replace("{{signedCardPayload}}", token);
 
 console.log(htmlPayload);
+
+// to write this html into a file 
+/*
+var fs = require('fs');
+var stream = fs.createWriteStream("output.html");
+stream.once('open', function(fd) {
+  stream.write(htmlPayload);  
+  stream.end();
+});
+*/
